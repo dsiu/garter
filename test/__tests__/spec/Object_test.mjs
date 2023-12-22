@@ -34,7 +34,7 @@ Zora.test("toJsonUnsafe", (function (t) {
               }));
         t.test("unsafe", (async function (t) {
                 var o = {
-                  x: (function () {
+                  x: (function (param) {
                       return 1;
                     })
                 };
@@ -53,7 +53,7 @@ Zora.test("[Object] toJsonExn", (function (t) {
               }));
         t.test("roundtrip", (async function (t) {
                 var o = {
-                  x: (function () {
+                  x: (function (param) {
                       return 1;
                     })
                 };
@@ -72,7 +72,7 @@ Zora.test("[Object] toJson", (function (t) {
               }));
         t.test("roundtrip", (async function (t) {
                 var o = {
-                  x: (function () {
+                  x: (function (param) {
                       return 1;
                     })
                 };

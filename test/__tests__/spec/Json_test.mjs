@@ -57,7 +57,7 @@ Zora.test("[Json] roundtrip", (function (t) {
                         "x",
                         0.0
                       ]]);
-                t.equal(roundtrip(json), json, "");
+                t.equal(Belt_Option.flatMap(Garter_Json.stringify(json), Garter_Json.parse), json, "");
               }));
       }));
 

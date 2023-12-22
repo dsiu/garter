@@ -1,3 +1,5 @@
+@@uncurried
+
 include module type of Belt_Array
 
 let isEmpty: array<'a> => bool

@@ -1,3 +1,5 @@
+@@uncurried
+
 let identity = a => a
 
 let complement = (f, x) => !f(x)

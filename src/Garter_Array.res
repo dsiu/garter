@@ -1,3 +1,5 @@
+@@uncurried
+
 include Belt.Array
 
 let isEmpty = xs => length(xs) === 0
