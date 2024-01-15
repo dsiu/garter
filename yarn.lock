@@ -319,7 +319,7 @@ __metadata:
     "@rescript/std": 11.0.0-rc.8
     onchange: ^7.1.0
     pta: ^1.2.0
-    rescript: 11.0.0-rc.8
+    rescript: ^11.0.0
     tap-difflet: ^0.7.2
     zora: ^5.2.0
   languageName: unknown
@@ -3109,14 +3109,14 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"rescript@npm:11.0.0-rc.8":
-  version: 11.0.0-rc.8
-  resolution: "rescript@npm:11.0.0-rc.8"
+"rescript@npm:^11.0.0":
+  version: 11.0.0
+  resolution: "rescript@npm:11.0.0"
   bin:
     bsc: bsc
     bstracing: lib/bstracing
     rescript: rescript
-  checksum: 0ccb65b8d5e3f76e5a6d98aeee9737a7b9950f30a68bfb72975f93a9aa5145bb7b93f31e81bf02cbfb309fdac517f6961c89795ca39f37b6df99c487c7f3bc2d
+  checksum: 6c5c11f7ad75850c92b879160e52ac2d672bd8cf5d480aa730e59d88c5714cf447c24c33b13f81f17dd968306d74f7b77f1c3a5d48d7e649a38f5648c25b626f
   languageName: node
   linkType: hard
 
